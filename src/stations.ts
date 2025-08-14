@@ -56,4 +56,11 @@ export const stations: Station[] = [
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/OBS-Logo.JPG/220px-OBS-Logo.JPG',
     bgColor: '#EE82EE',
   },
+  {
+    id: 8,
+    name: '아리랑 라디오',
+    url: 'https://www.arirang.com/radio?lang=ko',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/OBS-Logo.JPG/220px-OBS-Logo.JPG',
+    bgColor: '#ADD8E6',
+  },
 ];
