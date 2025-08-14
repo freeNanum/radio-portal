@@ -31,7 +31,6 @@
 }
 
 .station-link {
-  background-color: white;
   color: #282c34;
   text-decoration: none;
   padding: 25px;
@@ -42,8 +41,15 @@
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Align items to the start */
   min-height: 80px;
+}
+
+.station-logo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  margin-right: 15px; /* Space between logo and text */
+  object-fit: contain; /* Ensures the image fits within the bounds without cropping */
 }
 
 .station-link:hover {

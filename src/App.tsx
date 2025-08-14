@@ -11,14 +11,16 @@ function App() {
       <main className="App-main">
         <div className="station-list">
           {stations.map(station => (
-            <a 
-              key={station.id} 
-              href={station.url} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              key={station.id}
+              href={station.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="station-link"
+              style={{ backgroundColor: station.bgColor }}
             >
-              {station.name}
+              <img src={station.logoUrl} alt={``} className="station-logo" />
+              <span>{station.name}</span>
             </a>
           ))}
         </div>
