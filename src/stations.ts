@@ -30,4 +30,14 @@ export const stations: Station[] = [
     name: 'YTN 라디오',
     url: 'https://radio.ytn.co.kr/',
   },
+  {
+    id: 6,
+    name: 'TBS 라디오',
+    url: 'https://tbs.seoul.kr/fm/index.do',
+  },
+  {
+    id: 7,
+    name: 'OBS 라디오',
+    url: 'https://www.obs.co.kr/radio/',
+  },
 ];
