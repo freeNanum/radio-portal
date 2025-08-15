@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { stations } from './stations';
 import backgroundImage from './background.jpg';
+import stationLogo from './station-logo.svg';
 
 function App() {
   const appStyle = {
@@ -28,7 +29,7 @@ function App() {
               className="station-link"
               style={{ backgroundColor: station.bgColor }}
             >
-              <img src={station.logoUrl} alt={``} className="station-logo" />
+              <img src={stationLogo} alt={``} className="station-logo" />
               <span>{station.name}</span>
             </a>
           ))}
