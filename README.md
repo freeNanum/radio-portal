@@ -40,8 +40,8 @@
 
 1.  **저장소 복제:**
     ```bash
-    git clone https://github.com/your-username/korean-radio-portal.git
-    cd korean-radio-portal
+    git clone https://github.com/your-username/radio-portal.git
+    cd radio-portal
     ```
 
 2.  **의존성 설치:**
