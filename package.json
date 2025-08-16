@@ -2,6 +2,8 @@
   "name": "radioweb",
   "version": "0.1.0",
   "private": true,
+  "author": "Jaehong Park <jaehong1972@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",

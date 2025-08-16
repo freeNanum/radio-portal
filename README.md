@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# 한국 라디오 포털
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 개요
 
-## Available Scripts
+이 프로젝트는 다양한 한국 라디오 방송을 청취할 수 있는 웹 애플리케이션입니다. React와 TypeScript를 사용하여 개발되었으며, 사용자에게 편리한 라디오 청취 경험을 제공하는 것을 목표로 합니다.
 
-In the project directory, you can run:
+## 주요 기능
 
-### `npm start`
+- **다양한 라디오 채널 제공:** KBS, MBC, SBS, CBS 등 주요 라디오 방송 채널 목록을 제공합니다.
+- **간편한 채널 이동:** 각 방송사 로고를 클릭하면 해당 방송사의 실시간 라디오 페이지로 이동하여 청취할 수 있습니다.
+- **직관적인 사용자 인터페이스:** 배경 이미지와 함께 각 방송사별 고유 색상으로 구분된 깔끔한 UI를 제공합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 기술 스택
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend:** React, TypeScript, CSS
+- **Development Tools:** Create React App
 
-### `npm test`
+## 프로젝트 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── App.tsx
+│   ├── stations.ts
+│   ├── App.css
+│   └── ...
+├── package.json
+└── README.md
+```
 
-### `npm run build`
+- **`public/index.html`**: 애플리케이션의 기본 HTML 파일입니다.
+- **`src/App.tsx`**: 메인 애플리케이션 컴포넌트로, 라디오 채널 목록을 화면에 렌더링합니다.
+- **`src/stations.ts`**: 라디오 방송사 정보를 담고 있는 데이터 파일입니다.
+- **`src/App.css`**: 애플리케이션의 전반적인 스타일을 정의합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 설치 및 실행
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **저장소 복제:**
+    ```bash
+    git clone https://github.com/your-username/korean-radio-portal.git
+    cd korean-radio-portal
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **의존성 설치:**
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+3.  **개발 서버 실행:**
+    ```bash
+    npm start
+    ```
+    브라우저에서 `http://localhost:3000` 주소로 접속하여 확인할 수 있습니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 사용 가능한 스크립트
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **`npm start`**: 개발 모드로 앱을 실행합니다.
+- **`npm test`**: 테스트를 실행합니다.
+- **`npm run build`**: 프로덕션용으로 앱을 빌드합니다.
+- **`npm run eject`**: Create React App의 설정을 커스터마이징하기 위해 사용합니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 라이선스
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+이 프로젝트는 [GPL-3.0-or-later](LICENSE)를 따릅니다.
